@@ -1,0 +1,46 @@
+#######################################
+# Syntax Coloring Map For TTVCNL4040
+#######################################
+
+#######################################
+# Datatypes (KEYWORD1)
+#######################################
+
+TTVCNL4040		KEYWORD1
+
+#######################################
+# Methods and Functions (KEYWORD2)
+#######################################
+
+isConnected		KEYWORD2
+isALSEnabled	KEYWORD2
+isPSEnabled		KEYWORD2
+enableALS			KEYWORD2
+setALSIntegrationTime	KEYWORD2
+readALS				KEYWORD2
+readWhite			KEYWORD2
+readLux				KEYWORD2
+disableALS		KEYWORD2
+enablePS			KEYWORD2
+readPS				KEYWORD2
+disablePS			KEYWORD2
+readCommandRegister		KEYWORD2
+writeCommandRegister	KEYWORD2
+
+#######################################
+# Constants (LITERAL1)
+#######################################
+
+IR_PWR_50MA		LITERAL1
+IR_PWR_75MA		LITERAL1
+IR_PWR_100MA	LITERAL1
+IR_PWR_120MA	LITERAL1
+IR_PWR_140MA	LITERAL1
+IR_PWR_160MA	LITERAL1
+IR_PWR_180MA	LITERAL1
+IR_PWR_200MA	LITERAL1
+
+ALS_IT_80MS		LITERAL1
+ALS_IT_160MS	LITERAL1
+ALS_IT_320MS	LITERAL1
+ALS_IT_640MS	LITERAL1
