@@ -1,8 +1,8 @@
 # VCNL4040 Arduino Library
 
-VCNL4040 is a fully integrated proximity and ambient light sensor with infrared emitter, I2C interface, and interrupt function.
+VCNL4040 is a fully integrated proximity and ambient light sensor with infrared emitter, I2C interface, and interrupt function. See <a href="Documents/VCNL4040 Proximity Sensor Datasheet.pdf">datasheet</a> for detailed information.
 
-IMAGE
+<img src="Documents/VCNL4040.png" width="250" />
 
 Library feature list:
 
@@ -18,11 +18,12 @@ Library feature list:
 Download the ZIP file and extract its content. Move the TTVCNL4040 folder to "ARDUINOAPP/hardware/libraries/". In the Arduino IDE you'll find the sample sketches under Samples->TTVCNL4040.
 
 ## Wiring
-IMAGE
+<img src="Documents/VCNL4040 Block Diagram.png" width="250" />
 
 If you are using an Arduino board other than 3.3V, ensure to use a logic level shifter!
 
-IMAGE
+<img src="Documents/VCNL4040 Wiring.png" width="250" />
+
 
 white: SDA (3.3V!)<br>
 grey: SCL (3.3V!)<br>
