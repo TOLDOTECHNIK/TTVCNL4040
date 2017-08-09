@@ -12,8 +12,8 @@ Library feature list:
  * Proximity/Ambient light threshold interrupts (not implemented yet!) 
 
 ## History
-2017-06-07 Initial release
-2017-08-09 I2C read delays removed in code
+ * 2017-06-07 Initial release
+ * 2017-08-09 I2C read delays removed in code
 
 ## Installation
 Download the ZIP file and extract its content. Move the TTVCNL4040 folder to "ARDUINOAPP/hardware/libraries/". In the Arduino IDE you'll find the sample sketches under Samples->TTVCNL4040.
