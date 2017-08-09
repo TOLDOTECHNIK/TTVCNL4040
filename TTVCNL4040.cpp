@@ -136,17 +136,18 @@ void TTVCNL4040::disablePS(){
 }
 
 unsigned int TTVCNL4040::readCommandRegister(uint8_t registerAddress){
+  byte lowValue = 0;
+  byte highValue = 0;
+
   Wire.beginTransmission(TTVCNL4040_I2C_ADDRESS);
   Wire.write(registerAddress);
   Wire.endTransmission(false);
   Wire.requestFrom(TTVCNL4040_I2C_ADDRESS, 2);
 
-  while(!Wire.available()){
-    delay(1);
+  if(Wire.available() > 1){
+    lowByte = Wire.read();
+    highValue = Wire.read();
   }
-
-  byte lowValue = Wire.read();
-  byte highValue = Wire.read();
 
   return ((unsigned int)(highValue) << 8 | lowValue);
 }
