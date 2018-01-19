@@ -1,0 +1,22 @@
+{
+  "name": "TTVCNL4040",
+  "keywords": "VCNL4040, sensor, i2c",
+  "description": "VCNL4040 Arduino Library.",
+  "repository":
+  {
+    "type": "git",
+    "url": "https://github.com/TOLDOTECHNIK/TTVCNL4040.git"
+  },
+  "authors":
+  [
+    {
+      "name": "TOLDO TECHNIK",
+      "email": "info@toldotechnik.li",
+      "url": "http://www.toldotechnik.li",
+      "maintainer": true
+    }
+  ],
+  "version": "1.0.0",
+  "frameworks": "arduino",
+  "platforms": "*"
+}
